@@ -1,0 +1,26 @@
+h1{
+    background-color:rgb(219, 235, 235)
+
+}
+
+.premier_lien{
+    background-color: rgb(114, 141, 118);
+    color: antiquewhite;
+}
+h1{
+    color: rgb(131, 129, 209);
+}
+p{
+    display: block;
+    font-style: italic;
+    background-color: rgb(70, 132, 168);
+}
+body {
+    background-color: cadetblue;
+}
+a{
+    display: block;
+}
+p.parag_inline{
+    display: inline;
+}

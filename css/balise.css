@@ -1,0 +1,19 @@
+header{
+    background-color:#900c3f;
+    height: 100px;
+    color: white;
+}
+    nav{
+     background-color:#daf7a6 ;
+     height: 60px;
+     color: red;
+    }
+*{text-align: right;}
+body{
+      background-color:#f5deb3 ;
+}
+section:first-child{
+    background-color: navy;
+    height: 550px
+}
+section:nth-child(3)
