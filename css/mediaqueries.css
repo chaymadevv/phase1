@@ -1,0 +1,46 @@
+*{
+    text-align: center;
+    font-family: monospace;
+}
+.content {
+  background-color: orange;
+  width: 50%;
+  min-height: 500px;
+  margin: auto;
+}
+
+header {
+  height: 150px;
+  background-color: aqua;
+}
+
+nav {
+  height: 100px;
+  background-color: bisque;
+}
+
+main {
+  height: 200px;
+  background-color: brown;
+}
+
+main:nth-child(2) {
+  background-color: black;
+}
+
+@media only screen and (max-width: 1200px) {
+  .content {
+    background-color: blueviolet;
+  }
+}
+@media only screen and (max-width: 700px) {
+  .content {
+    background-color: rgb(90, 72, 107);
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .content {
+    background-color: chartreuse;
+  }
+}
