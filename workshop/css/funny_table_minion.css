@@ -11,3 +11,45 @@ table{
     border-collapse: collapse;
     margin: 100px auto
 }
+
+.yellow{
+    background-color: yellow;
+}
+
+.grey{
+    background-color: gray;
+}
+
+.black{
+    background-color: black;
+}
+
+.black1{
+    background-color: black;
+}
+
+.blue{
+    background-color: blue;
+}
+
+tr:nth-last-child(1){
+    background-color: green;
+}
+
+@media only screen and (max-width: 1000px) {
+    .black1 {
+      background-color: rgb(255, 0, 0);
+    }
+  }
+
+  @media only screen and (max-width: 700px) {
+    .yellow {
+      background-color: rgb(154, 209, 98);
+    }
+  }
+
+  @media only screen and (max-width: 1000px) {
+    .blue {
+      background-color: rgb(181, 204, 157);
+    }
+  }

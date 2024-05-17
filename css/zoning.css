@@ -12,7 +12,7 @@ min-height: 500px;
 margin: auto;
 border: 2px solid black;
 }
-
+ 
 header,
 footer {
   height: 80px;
@@ -30,4 +30,15 @@ main section {
   background-color: #e6e2af;
   height: 500px;
   border: 20px solid #787746;
+}
+
+@media screen {
+  
+} and (max-width: 1200px){
+
+}
+
+@media screen and ( max-width: 750px) {
+  background : url
+
 }
