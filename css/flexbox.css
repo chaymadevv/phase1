@@ -1,0 +1,15 @@
+.flex-container {
+    display: flex;
+    background-color: DodgerBlue;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  
+  .flex-container > div {
+    background-color: #f1f1f1;
+    margin: 10px 0px;
+    /* padding: 20px; */
+    font-size: 30px;
+    background-color: yellow;
+    width: 40%;
+  }
