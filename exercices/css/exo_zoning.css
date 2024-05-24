@@ -1,0 +1,25 @@
+* {
+  font-family: cursive;
+  margin: 0px;
+  padding: 0px;
+}
+
+#container {
+  width: 1400px;
+  margin: auto;
+  height: 500px;
+  background-color: rgb(214, 121, 172) solid;
+  border: 1px black solid;
+}
+
+header {
+  height: 60px;
+  background-color: rgba(212, 174, 180, 0.836);
+  text-align: center;
+  line-height: 60px;
+}
+main {
+}
+
+section {
+}

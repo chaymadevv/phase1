@@ -1,0 +1,65 @@
+*{
+    margin: 1px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+section{
+    display: flex;
+    width: 1000px;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+div{
+    height: 150px;
+    width: 150px;
+    border: 2px black solid;
+    text-align: center;
+    
+}
+
+.green{
+    background-color: green;
+    border-radius: 10% 20% 30% 40%  ;
+}
+
+.blue{
+    background-color: aqua;
+    border-radius: 50% 0%;
+}
+
+.aquamarine{
+    background-color: aquamarine;
+    border-radius: 100%;
+}
+
+.salmon{
+    background-color: salmon;
+    border-radius: 15% 40%;
+}
+ 
+.white{
+    background-color: none;
+    border:none
+}
+
+@media (max-width: 999.98px) {
+    section{ width: 100%}
+    section > div{
+        width: 100px;
+        height: 100px;
+    }
+
+    @media (max-width:960px){
+        section{
+            width: 100%
+        }
+    }
+     
+
+ 
+
+
+
+
