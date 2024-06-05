@@ -27,15 +27,7 @@
 //     document.write("la valeur de la variable num4 est egale à" + num4);
 // }
    
-var age = parseInt(window.prompt("t mineur? casse toi"));
-console.log(typeof age)
-
-if (age >= 18) {
-    document.write ("<h1>" + "bienvenue" + "</h1>")
-} else {
-    alert("casse toi")
-    document.location.href = "https://www.darty.com/"
-}
+ 
 
 
 

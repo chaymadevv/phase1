@@ -120,3 +120,9 @@ console.log(typeof nb_en_lettres);
 
 
 // FIN
+
+
+
+
+
+    
