@@ -28,7 +28,15 @@
 // }
    
  
+var age = parseInt(window.prompt("Quel âge as-tu?"));
+console.log(typeof age);
 
+if (age >= 18) {
+  document.write("<h1>" + "Bienvenue à toi" + "</h1>");
+} else {
+  alert("Vous n'avez pas l'âge requis !");
+  window.open("http://www.darty.com/");
+}
 
 
 
