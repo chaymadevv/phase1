@@ -4,7 +4,6 @@
 
 var a = 14;
 var b = 26;
-var c = ;
 var c = a;
 
 console.log(c= a);
