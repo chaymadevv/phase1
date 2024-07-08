@@ -1,0 +1,247 @@
+/* Reset des marges et paddings par défaut */
+* {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    max-width: 1052px;
+    margin: 0 auto;
+}
+
+/* Section Haut de la page */
+header {
+    background-color: #f8f8f8;
+}
+
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.logo {
+    height: 50px;
+}
+
+.slogan {
+    font-size: 0.9em;
+    color: #777;
+    margin-left: 10px;
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+}
+
+.account-btn, .cart-btn {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.greeting {
+    margin-left: 20px;
+    font-size: 0.9em;
+    color: #777;
+}
+
+.header-nav {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+}
+
+.header-nav a {
+    margin: 0 15px;
+    color: #333;
+    text-decoration: none;
+    font-size: 0.9em;
+}
+
+.header-nav a:hover {
+    text-decoration: underline;
+}
+
+.header-image img {
+    width: 100%;
+    height: auto;
+}
+
+/* Section Produit de la page */
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.product-item {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 48%;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    position: relative;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.product-content {
+    padding: 10px;
+    padding-bottom: 0;
+}
+
+.product-image {
+    width: 100%;
+    height: auto;
+}
+
+.discount-flag {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: black;
+    color: orange;
+    padding: 5px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.product-footer {
+    padding: 5px 0;
+    text-align: center;
+}
+
+.product-info h3 {
+    margin: 5px 0;
+    font-size: 1em;
+}
+
+.prices {
+    margin: 5px 0;
+}
+
+.old-price {
+    text-decoration: line-through;
+    margin-right: 5px;
+    color: #777;
+}
+
+.new-price {
+    color: orange;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+button {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+button:hover {
+    background-color: #333;
+}
+
+/* Section Pied de la page */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footer-nav {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.footer-nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+.footer-nav a:hover {
+    text-decoration: underline;
+}
+
+.footer-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.footer-info div {
+    text-align: center;
+    margin: 0 15px;
+    color: white;
+}
+
+.footer-info img {
+    display: block;
+    margin: 0 auto 10px;
+}
+
+.social-media {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.social-media .icon {
+    margin: 0 10px;
+    width: 30px;
+    height: 30px;
+}
+
+footer p {
+    font-size: 0.8em;
+    color: #777;
+}
+
+/* Media Queries pour les écrans */
+@media (max-width: 600px) {
+    .header-top, .header-nav {
+        flex-direction: column;
+        align-items: center;
+    }
+    .user-info {
+        margin-top: 10px;
+    }
+    .products {
+        flex-direction: column;
+        align-items: center;
+    }
+    .product-item {
+        width: 90%;
+        margin: 10px 0;
+    }
+    .footer-info {
+        flex-direction: column;
+        text-align: center;
+    }
+    .footer-info div {
+        margin: 10px 0;
+    }
+}
